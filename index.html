@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Chatbot | RAG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>AI Assistant</h1>
+            <button class="settings-btn" id="open-settings">
+                <i class="fas fa-cog"></i>
+            </button>
+        </header>
+
+        <div id="chat-container">
+            <div class="message bot-message">
+                Szia! Én egy hangalapú asszisztens vagyok. Kérdezz tőlem bármit a tudásbázisomból!
+            </div>
+        </div>
+
+        <div class="status" id="status-text">Készen áll a kérdésre...</div>
+
+        <div class="controls">
+            <button class="voice-btn" id="voice-trigger">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <div style="font-size: 0.7rem; color: var(--text-muted);">Kattints és beszélj</div>
+        </div>
+    </div>
+
+    <!-- API Token Modal -->
+    <div id="modal">
+        <div class="modal-content">
+            <h2>GitHub Token</h2>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">
+                A működéshez GitHub Model API kulcs (Personal Access Token) szükséges. 
+                <a href="https://github.com/settings/tokens" target="_blank" style="color: var(--primary);">Itt hozhatsz létre egyet.</a>
+            </p>
+            <input type="password" id="api-token" placeholder="github_pat_...">
+            <button class="save-btn" id="save-token">Mentés és Bezárás</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

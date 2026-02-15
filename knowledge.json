@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "topic": "Házirend",
+    "content": "A házirend szerint a közös területeken 22:00 után tilos a hangoskodás. A szemétszállítás minden kedden reggel 7 órakor történik. A közös költség havonta 15.000 Ft."
+  },
+  {
+    "id": 2,
+    "topic": "Parkolás",
+    "content": "A belső udvarban csak az érvényes matricával rendelkező lakók parkolhatnak. Vendégek számára a ház előtti fizetős övezetben van lehetőség parkolásra."
+  },
+  {
+    "id": 3,
+    "topic": "Internet",
+    "content": "A társasházban a Telekom és a Digi szolgáltatása érhető el. A modem elhelyezése a bejárati ajtó melletti kötődobozban javasolt a legjobb jelminőség érdekében."
+  },
+  {
+    "id": 4,
+    "topic": "Tűzvédelem",
+    "content": "Tűz esetén a lépcsőházban elhelyezett porral oltó készülékek használandók. A menekülési útvonalat jelző táblák minden emeleten megtalálhatók. A liftet tűz esetén használni tilos."
+  }
+]
